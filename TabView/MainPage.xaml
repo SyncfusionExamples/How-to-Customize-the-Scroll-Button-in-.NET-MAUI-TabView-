@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TabView.MainPage"
+             xmlns:tabView="clr-namespace:Syncfusion.Maui.TabView;assembly=Syncfusion.Maui.TabView">
+
+    <Grid VerticalOptions="Start">
+        <tabView:SfTabView x:Name="tabView" ScrollButtonBackground="Violet" ScrollButtonColor="Red"
+                       IsScrollButtonEnabled="True">
+
+            <tabView:SfTabItem Header="John">
+                <StackLayout Padding="10">
+                    <Label Text="John is a software developer with 5 years of experience in building mobile apps." 
+                       FontSize="16" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Center" 
+                       TextColor="Black" />
+                </StackLayout>
+            </tabView:SfTabItem>
+
+            <tabView:SfTabItem Header="Emily">
+                <StackLayout Padding="10">
+                    <Label Text="Emily is a graphic designer who specializes in creating stunning visuals and brand identities." 
+                       FontSize="16" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Center" 
+                       TextColor="Black" />
+                </StackLayout>
+            </tabView:SfTabItem>
+
+            <tabView:SfTabItem Header="Michael">
+                <StackLayout Padding="10">
+                    <Label Text="Michael is a project manager known for his exceptional leadership and organizational skills." 
+                       FontSize="16" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Center" 
+                       TextColor="Black" />
+                </StackLayout>
+            </tabView:SfTabItem>
+
+            <tabView:SfTabItem Header="Sarah">
+                <StackLayout Padding="10">
+                    <Label Text="Sarah is a data scientist with expertise in machine learning and artificial intelligence." 
+                       FontSize="16" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Center" 
+                       TextColor="Black" />
+                </StackLayout>
+            </tabView:SfTabItem>
+
+            <tabView:SfTabItem Header="David">
+                <StackLayout Padding="10">
+                    <Label Text="David is a digital marketer skilled in SEO, content creation, and social media strategy." 
+                       FontSize="16" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Center" 
+                       TextColor="Black" />
+                </StackLayout>
+            </tabView:SfTabItem>
+
+        <tabView:SfTabItem Header="Alice">
+            <StackLayout Padding="10">
+                <Label Text="Alice is a content writer with a flair for crafting compelling stories and articles." 
+                       FontSize="16" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Center" 
+                       TextColor="Black" />
+            </StackLayout>
+        </tabView:SfTabItem>
+
+        <tabView:SfTabItem Header="James">
+            <StackLayout Padding="10">
+                <Label Text="James is a UI/UX designer focused on creating user-friendly and visually appealing designs." 
+                       FontSize="16" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Center" 
+                       TextColor="Black" />
+            </StackLayout>
+        </tabView:SfTabItem>
+
+        <tabView:SfTabItem Header="Sophia">
+            <StackLayout Padding="10">
+                <Label Text="Sophia is a business analyst with expertise in identifying growth opportunities." 
+                    FontSize="16" 
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Center" 
+                    TextColor="Black" />
+            </StackLayout>
+        </tabView:SfTabItem>
+
+            <tabView:SfTabItem Header="Robert">
+                <StackLayout Padding="10">
+                    <Label Text="Robert is a cybersecurity expert dedicated to protecting data and systems from threats." 
+                    FontSize="16" 
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Center" 
+                    TextColor="Black" />
+                </StackLayout>
+            </tabView:SfTabItem>
+        </tabView:SfTabView>
+    </Grid>
+</ContentPage>
