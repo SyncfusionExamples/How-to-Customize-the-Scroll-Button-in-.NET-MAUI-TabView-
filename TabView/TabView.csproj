@@ -62,10 +62,7 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <ProjectReference Include="..\..\..\TradeMark\maui-tabview\maui\src\tabview\Syncfusion.Maui.TabView.csproj" />
+		<PackageReference Include="Syncfusion.Maui.TabView" Version="*" />
 	</ItemGroup>
 
 </Project>
